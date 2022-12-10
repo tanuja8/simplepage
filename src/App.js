@@ -6,10 +6,6 @@ import Imagearea1 from './component/Imagearea1';
 import End from './component/End';
 
 
-
-
-
-
 function App() {
   return (
     <div className="App">
