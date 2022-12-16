@@ -6,6 +6,7 @@ import Imagearea1 from './component/Imagearea1';
 import End from './component/End';
 import { Route, Routes } from 'react-router-dom';
 import HomePage from './component/HomePage';
+import Contact from './component/Contact';
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
         <Route path='/' element={<HomePage/>}/>
         <Route path='/about' element={<About/>}/>
         <Route path='/service' element={<Imagearea1/>}/>
+        <Route path='/contact' element={<Contact/>}/>
       </Routes>
       <End/>
     </div>
