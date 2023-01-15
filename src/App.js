@@ -7,6 +7,7 @@ import End from './component/End';
 import { Route, Routes } from 'react-router-dom';
 import HomePage from './component/HomePage';
 import Contact from './component/Contact';
+import Practicstate from './component/Practicstate';
 
 
 function App() {
@@ -19,7 +20,9 @@ function App() {
         <Route path='/service' element={<Imagearea1/>}/>
         <Route path='/contact' element={<Contact/>}/>
       </Routes>
+      <Practicstate/>
       <End/>
+     
     </div>
   );
 }

@@ -8,10 +8,10 @@ export default function Contact() {
         <input type="text" placeholder='Enter Your Name' className='w-50 p-2' /> <br></br>
         <input type="email" placeholder='Enter your email' className='my-3 w-50 p-2' /> <br></br>
         <input type="text" placeholder='Enter your Phone Number' className='mb-3 w-50 p-2' /> <br></br>
-        <textarea id="freeform" name="freeform" rows="4" cols="50" className=''>
+        <textarea id="freeform" name="freeform" rows="4" cols="50" >
           Type your Message...
-        </textarea><br/>
-        <button type="button" className="btn btn-danger px-5 m-5">SUBMIT</button>
+        </textarea><br/>  
+        <button type="button" className="btn btn-danger px-5 mt-3">SUBMIT</button>
       </form>
     </div>
   )
