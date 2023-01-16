@@ -1,21 +1,16 @@
-import { useState } from 'react';
+import React, { useState } from 'react'
 
-export default function Counter() {
-  const [count, setCount] = useState(0);  
-    
-  function incrementCount() {
-    setCount(count + 1);
-  }
-    
-  function decrementCount() {
-    setCount(count - 1);   
-  }
-    
+export default function  Increment() {
+  const[counter,setCounter]=useState(0)  
+
   return (
     <div>
-      <button onClick={incrementCount}>+ 1</button>
-      <span>{count}</span>
-      <button onClick={decrementCount}>- 1</button>
+      <div className="text-center ">
+    <button type="button" class="btn btn-danger" onClick={()=>setCounter(counter+1)}>+1</button>
+    <span>  Counter Value : </span>
+    <span className="m-3 ">{counter}</span>
+      <button type="button" class="btn btn-danger" onClick={()=>setCounter(counter-1)}>-1</button>
+      </div>
     </div>
-  );
+  )
 }
